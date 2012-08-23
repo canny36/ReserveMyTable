@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center"
+    android:background="@drawable/bg_main"
+    >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:contentDescription="Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_rmt_logo" />
+    	
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:orientation="horizontal">
+        
+            <ImageView
+        android:id="@+id/imageView"
+        android:contentDescription="Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_user_name" />
+            
+            <EditText 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               
+                android:singleLine="true"
+                android:background="@drawable/bg_edit_text"
+                />
+        
+    </LinearLayout>
+    
+       <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:orientation="horizontal">
+        
+            <ImageView
+        android:id="@+id/imageView"
+        android:contentDescription="Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_password" />
+            
+            <EditText 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:inputType="textPassword"
+                android:singleLine="true"
+                android:background="@drawable/bg_edit_text"
+                />
+        
+    </LinearLayout>
+    
+       <Button 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/btn_login_normal"
+           android:layout_marginTop="5dp"
+           />
+
+</LinearLayout>
